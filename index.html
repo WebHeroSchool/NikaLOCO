@@ -2,43 +2,64 @@
 <html>
 <head>
 	<title>LOCO</title>
-	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="./fonts.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fonts.css">
   	<meta name="viewport" content="width:device-width"/>
 </head>
 <body>
-	<header class="header"> 
-		<div class="header__logo"> 
-			LOCO 
-		</div>
-		<div class="header__language"> 
-			RU 
-		</div>
-		<div class="header__select-language"> </div>
-		<div class="header__menu"> </div>
-	</header>
-	<div class="first-part">
-		<img src="pete-bellis-432867-unsplash.png" alt="pete bellis" class="first-part__image">
-		<div class="new-collection">
-			<h1 class="new-collection__header">
-				Новая коллекция 
-			</h1>
-			<p class="new-collection__text">
-				Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
-			</p>
-			<button class="new-collection__button_forward"> 
-				ЧИТАТЬ ДАЛЬШЕ
-			</button>
-			<div class="new-collection__button_others">
-				ДРУГИЕ ПРЕДЛОЖЕНИЯ
+	<section class="section">
+		<aside class="sidebar"> 
+			<div class="sidebar__logo"> 
+				LOCO 
+			</div>
+			<div class="sidebar__language"> 
+				<div class="sidebar__language_ru"> 
+					RU 
+				</div>
+				<img src="Vector.svg" alt="language switcher" class="sidebar__language-switcher">
+			</div>
+			<div class="contacts">
+				<a class="social-media" href="#"> 
+					<img class="instagram-img" src="inst.png" alt="link on instagram">
+				</a>
+				<a class="social-media" href="#">
+					<img class="facebook-img" src="fb.png" alt="link on facebook">
+				</a>
+				<a class="social-media" href="#"> 
+					<img class="vk-img" src="vk.png" alt="link on vk">
+				</a>
+			</div>
+		</aside>
+		<nav class="menu">
+			<div class="menu__icon">
+	        	<span></span>
+	            <span></span>
+	        </div>
+	    </nav>
+		<div class="first-part">
+			<img src="pete-bellis-432867-unsplash.png" alt="pete bellis" class="first-part__image">
+			<div class="new-collection">
+				<h1 class="new-collection__header">
+					Новая коллекция 
+				</h1>
+				<p class="new-collection__text">
+					Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
+				</p>
+				<div class="new-collection__adds">
+					<button class="new-collection__forward"> 
+						ЧИТАТЬ ДАЛЬШЕ
+					</button>
+					<div class="new-collection__others">
+						ДРУГИЕ ПРЕДЛОЖЕНИЯ
+					</div>
+					<img src="Vector2.svg" alt="стрелка тупая" class="new-collection__others_arrow">
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="social-medias">
-		<div class="instagram"> </div>
-		<div class="facebook"> </div>
-		<div class="vk"> </div>
-	</div>
+		<div class="scroll__ellipse">
+            <div class="scroll__line"></div>
+        </div>
+	</section>
 	<div class="second-part">
 		<img src="pink-clutch-bag.png" alt="pink clutch bag" class="second-part__image">
 		<div class="clatch-bag">
